@@ -67,14 +67,19 @@ The company wants to understand:
 - The average number of trips stands out to be 3.30 .Individual belongs to family traveller has overall 19% conversion rate and mostly preferred property star is 3 .
 
 -  
-categories               correlation
+categories                   correlation
 
-ProdTaken                 1.000000
-NumberOfFollowups         0.111560
-PreferredPropertyStar     0.098704
-DurationOfPitch           0.076089
-PitchSatisfactionScore    0.051394
-NumberOfTrips             0.019709
+ProdTaken                       1.000000
+
+NumberOfFollowups               0.111560
+
+PreferredPropertyStar           0.098704
+
+DurationOfPitch                 0.076089
+
+PitchSatisfactionScore          0.051394
+
+NumberOfTrips                   0.019709
  
 the above table is the correlation measure of different variable with the target variables (prod taken)we see that majority of the variable has positive correlation but not strongly correlated which indicate that these variable doesn't influence customer purchasing decision.
 
