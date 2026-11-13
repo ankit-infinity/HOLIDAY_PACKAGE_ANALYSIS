@@ -48,14 +48,40 @@ Important variables:
 
 The company wants to understand:
 
-- Which customer groups are more likely to purchase holiday packages?
-- What customer characteristics influence purchasing decisions?
-- Which customer segments have the highest purchase conversion rates?
-- How do income, age, occupation, marital status, and travel behaviour relate to purchasing decisions?
-- Which customer segments should the company prioritise for marketing campaigns?
-- Does the type of holiday package presented influence purchase conversion?
+- Identify the total number of customers and analyse their demographics based on age ,gender,martialstatus and occupation 
+- Monitor the number of customers who purchased the holiday package versus those who didn't purchase.
+- Categorise customers into different segments based on income,age,travel frequencyand purchasing behaviour to identify potential buyers.
+- Evaluate the performance of different holiday packages (Productpitched) and identify which package generate the highest customer service.
+- Analyse customer travel preference including number of trips family travel behaviour and preferred hotel property rating
+- Evaluate how pitch duration, number of follwow ups, contacttype and pitch satisfaction influence customers purchasing decision .
 - At last bulid predictive model for accurately predicting the prod taken.
 
 ## INSIGHTS:
+
+- There are total 4128 customers out of which majority of the customers falls between the age group of 35-44 and male customer are more in number than female customer who are interetsed in the product,married couple are more interested in product taken freelancer are high rate of conversion regarding product interested.
+
+- There are total 797 customer which is 19% of total customers who purchase the product where as the number of customer who didn't purchase the product stands out 3331.
+
+-  Out of product pitched categories 'basic' package generate highest conversion rate overall whereas 'super deluxe' generate least conversion rate .
+
+- The average number of trips stands out to be 3.30 .Individual belongs to family traveller has overall 19% conversion rate and mostly preferred property star is 3 .
+
+-  
+categories               correlation
+
+ProdTaken                 1.000000
+NumberOfFollowups         0.111560
+PreferredPropertyStar     0.098704
+DurationOfPitch           0.076089
+PitchSatisfactionScore    0.051394
+NumberOfTrips             0.019709
+ 
+the above table is the correlation measure of different variable with the target variables (prod taken)we see that majority of the variable has positive correlation but not strongly correlated which indicate that these variable doesn't influence customer purchasing decision.
+
+- 
+
+
+
+
 
 
